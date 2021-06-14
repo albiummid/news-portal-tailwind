@@ -15,10 +15,10 @@ const NewsCard = ({ data, isHorizontal, newsRemover }) => {
                         title
                     }
                 </p>
-                <p className='m-1 '>
+                <p className='m-1 summary'>
                     {summary}
                 </p>
-                <p className='m-1 text-sm  text-gray-600 '>
+                <p className='m-1 text-sm publish  text-gray-600 '>
                     {published}
                 </p>
 

@@ -2,17 +2,30 @@
   background-color: white;
   position: relative;
   display: flex;
+  word-wrap: normal;
+  word-break: break-all;
   flex-direction: column;
   max-width: 300px;
+}
+.publish {
+  display: flex;
+}
+.summary {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 16px;
+  max-height: 80px;
 }
 
 .vertical_card {
   background-color: white;
   position: relative;
   display: flex;
+  gap: 5px;
 }
 .vertical_card > .title_img {
-  width: 50px;
+  clip-path: circle();
+  width: 100px;
 }
 .horizontal_card > .title_img {
   width: 100%;
